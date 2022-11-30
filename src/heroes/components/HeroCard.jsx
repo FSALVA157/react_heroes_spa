@@ -8,6 +8,7 @@ export const HeroCard = ({heroe}) => {
 
      return (
         <Card
+                className="animate__animated animate__zoomInDown"
                 title={heroe.superhero}
                 hoverable
                 style={{
